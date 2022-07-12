@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playify-Your favorite music is here</title>
+    <link rel="favicon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <li class="brand"><img src="logo.png" alt="playify">Playify</li>
+           <li>Welcome to my playlist!</li>
+           
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1 class="header">Best of Imagine Dragons!</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover/1.jpg" alt="1">
+                    <span class="songListPlay">Believer</span><span class="timeStamp">03:24<i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/2.jpg" alt="2">
+                    <span class="songListPlay">Whatever it takes</span><span class="timeStamp">03:21<i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/3.jpg" alt="3">
+                    <span class="songListPlay">Thunder</span><span class="timeStamp">03:24<i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/4.jpg" alt="4">
+                    <span class="songListPlay">Birds</span><span class="timeStamp">03:39<i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/5.jpg" alt="5">
+                    <span class="songListPlay">Bullet in a gun</span><span class="timeStamp">03:24<i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/6.jpg" alt="6">
+                    <span class="songListPlay">Lonely</span><span class="timeStamp">02:39<i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/7.jpg" alt="7">
+                    <span class="songListPlay">Walking the wire</span><span class="timeStamp">03:52<i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/8.jpg" alt="8">
+                    <span class="songListPlay">Wrecked</span><span class="timeStamp">04:02<i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/9.jpg" alt="9">
+                    <span class="songListPlay">Bad Liar</span><span class="timeStamp">04:20<i id="9" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/10.jpg" alt="10">
+                    <span class="songListPlay">Zero</span><span class="timeStamp">03:30<i id="10" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/11.jpg" alt="11">
+                    <span class="songListPlay">Enemy</span><span class="timeStamp">03:33<i id="11" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+                <div class="songItem">
+                    <img src="cover/12.jpg" alt="12">
+                    <span class="songListPlay">Natural</span><span class="timeStamp">03:09<i id="12" class="fa-regular songItemPlay fa-circle-play"></i></span>  
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+                <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+                <!-- <i class="fa-regular fa-3x fa-circle-stop"></i> -->
+                
+            </div>
+            <div class="songInfo">
+                <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Believer</span>
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/1acbebea46.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
